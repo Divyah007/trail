@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title></title>
+    <link rel='stylesheet' href='style.css'>
+
+    <script src="main.js">
+       
+    </script>
+
+
+
+
+    <script src="a.js">
+       
+    </script>
+  </head>
+  <body>
+    <header style="background-color:black;text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px green, 0 0 20px green, 0 0 25px green, 0 0 30px green, 0 0 35px green; font-size: 35px;">
+      NOTE KEEPING APPLICATION                  
+      <div id='color-select'>
+        <div class='color-box white'></div>
+        <div class='color-box orange'></div>
+        <div class='color-box banana'></div>
+        <div class='color-box honeydew'></div>
+        <div class='color-box flora'></div>
+        <div class='color-box aqua'></div>
+        <div class='color-box ice'></div>
+        <div class='color-box sky'></div>
+        <div class='color-box orchid'></div>
+        <div class='color-box lavendar'></div>
+        <div class='color-box pink'></div>
+        
+      </div>
+      <button id="x" type="submit" onclick="yu()">LOGOUT</button></a>
+    </header>
+    <main>
+      <div class="headers">
+        <div id="list-head">
+          <b>Your Notes</b> <i>(click to edit/delete)</i>
+        </div>
+        <div id="note-head">
+          <b>Your Notepad</b>
+          <span id="edit-mode" class="no-display">
+            <i> (edit mode) </i>
+          </span>
+        </div>
+      </div>
+      <noteList>
+        <div id='listed'>
+        </div>
+      </noteList>
+      <notepad>
+        <div id="note-title">
+          <input id="title-field" type="text" placeholder="title your note">
+        </div>
+        <div id="note-body">
+          <textarea id="body-field"></textarea>
+        </div>
+      </notepad>
+    </main>
+    <footer style="background-color:black;text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px green, 0 0 20px green, 0 0 25px green, 0 0 30px green, 0 0 35px green; font-size: 35px;">
+      Done by DIVYA LAKSHMI V
+      <button id="btn-save">Save</button>
+      <button id="btn-delete">Delete / Clear </button>
+      
+    </footer>
+  </body>
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+  <script type='text/javascript' src='app.js'></script>
+</html>
